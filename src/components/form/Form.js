@@ -15,7 +15,7 @@ export default function Form() {
         let car = {model,price,year}
         setformState({...car})
         console.log(car)
-        saveCar(car)
+        saveCar(car);
 
     }
 
